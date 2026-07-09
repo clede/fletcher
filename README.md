@@ -1,5 +1,5 @@
 # Fletcher
-A Pytest-based automated test framework for API testing, designed for testing the Swagger PetStore API.
+A Pytest-based automated test framework for API testing, designed for testing the Swagger PetStore public API.
 
 ## Purpose
 Developed as a learning exercise, to gain experience building test frameworks.
