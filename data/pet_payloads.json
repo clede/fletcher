@@ -1,0 +1,19 @@
+[
+    {
+    "id": 987654321,
+    "category": { "id": 1, "name": "dogs" },
+    "name": "Gordon",
+    "photoUrls": ["https://jonathanclede.com/img/gordon_puppy.png"],
+    "tags": [ {"id": 1, "name": "friendly"}],
+    "status": "available"
+    },
+    
+    {
+    "id": 987654321,
+    "category": { "id": 1, "name": "cats" },
+    "name": "Bounder",
+    "photoUrls": ["https://jonathanclede.com/img/bounder_cat.png"],
+    "tags": [ {"id": 1, "name": "surly"}],
+    "status": "available"
+    }
+]
