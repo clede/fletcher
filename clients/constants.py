@@ -1,4 +1,4 @@
-# Reusable constants (and variables that act like constants)
+# Reusable constants used for interacting with the API.
 
 API_KEY = "special-key"
 BASE_URL = "https://petstore.swagger.io/v2"

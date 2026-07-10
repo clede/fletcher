@@ -1,9 +1,14 @@
 # Reusable client wrapper functions
 
+import sys
+import os
 import requests
 import json
 from pathlib import Path
-from constants import BASE_URL, HEADERS, pet_id
+from constants import BASE_URL, HEADERS
+
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), """..""", 'data'))
+from pet_ids import pet_id
 
 payloads_path = Path(__file__).parent / """..""" / 'data' / 'pet_payloads.json'
 
@@ -15,6 +20,7 @@ for pet in pets:
 new_pet = pets[0]
 updated_pet = pets[1]
 
+# Functions start here.
 def get_pet(id=pet_id):
     """Gets an existing pet."""
     resp = requests.get(
